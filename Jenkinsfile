@@ -45,7 +45,7 @@ pipeline {
 
             //The steps section defines a series of one or more steps to be executed in a given stage directive.
             steps {
-                deleteDir()
+              
                 echo "Building the application"
             }
         }
